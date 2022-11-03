@@ -89,30 +89,34 @@ h6 {
 	font-weight: 400;
 }
 
-body {}
+
 
 .travel-page {
 
-	background: url(../img/Ellipse\ 1\ copy.svg) 150px 130px no-repeat, #e8e8e8;
+	background: url(../img/Ellipse\ 1\ copy\ opacity.svg) 150px 130px no-repeat, #e8e8e8;
+
 	margin: 0 auto;
 	width: 100%;
 	max-width: 1440px;
+	padding-bottom: 137px;
 }
 
 .main-title {
 	display: block;
-	padding-top: 168px;
+	padding-top: 166px;
 	margin-bottom: 15px;
 }
 
 .main-title__title {
+	letter-spacing: 3px;
+	opacity: 60%;
 	text-align: center;
 	font-size: 14px;
 	color: #273d46;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
-.page-title {}
+
 
 .page-title__title {
 	font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
@@ -145,38 +149,45 @@ body {}
 }
 
 .check-list {
+
 	display: block;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	margin-left: 347px;
+	/* margin-left: 347px; */
+	margin-left: 24.1%;
 	margin-bottom: 59px;
 
 }
 
 .check-list li {
+
 	background: url(../img/check\ icon.svg) left top no-repeat;
 	padding-left: 36px;
+
 }
 
 .check-list__item-1 {
 	color: #273d46;
 	font-size: 22px;
 	text-shadow: 0 0 1px black;
+	margin-bottom: 10px;
 }
 
 .check-list__item-2 {
 	font-style: italic;
 	font-size: 21px;
 	color: #80b7b3;
+	margin-bottom: 16px;
 }
 
 .check-list__item-3 {
 	font-weight: 700;
 	color: #273d46;
 	font-size: 22px;
+	margin-bottom: 13px;
 
 }
 
-.check-list__item-4 {
+.check-list__item-4 p {
 	text-decoration: line-through;
 	font-size: 21px;
 	margin-bottom: 59px;
@@ -186,11 +197,11 @@ body {}
 .full-story {
 	margin-left: 347px;
 	border-radius: 35px;
-	width: 200px;
+	width: 199px;
 	line-height: 44px;
 	background: #80b7b3;
 	text-align: center;
-
+	box-shadow: 6px 6px 40px rgba(128, 183, 179, 0.54);
 
 }
 
@@ -200,7 +211,8 @@ body {}
 	display: inline-block;
 	vertical-align: middle;
 	letter-spacing: 3px;
-	margin-right: 5px;
+	margin-right: 6px;
+
 
 
 
@@ -209,4 +221,5 @@ body {}
 .travel-img {
 	display: inline-block;
 	vertical-align: middle;
+
 }
